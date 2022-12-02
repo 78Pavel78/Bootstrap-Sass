@@ -1,0 +1,97 @@
+@font-face 
+    font-family: 'Roboto'
+    font-style: normal
+    font-weight: 400
+    font-display: swap
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2')
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+  
+
+.App 
+    display: flex
+    flex-direction: column
+    min-height: 94vh
+    height: 100%
+    width: 100%
+    max-width: calc(100% - 60px)
+    margin: 0 auto
+    font-family: "Roboto", "Arial", sans-serif
+    font-weight: 500       
+
+.header 
+    display: flex
+    justify-content: space-between
+    padding: 14px 0
+    
+
+.header_menu 
+    display: flex
+    align-items: center
+    gap: 0 20px 
+    font-size: 24px
+    color: lightgreen  
+
+
+.main 
+    flex-grow: 1
+
+
+.number 
+    display: flex
+    font-size: 288px
+    justify-content: center
+    color: red
+
+
+.buttons 
+    display: flex
+    justify-content: center      
+
+#inc, #dec, #reset:hover
+    cursor: pointer
+
+.footer 
+    display: flex
+    justify-content: space-between
+    padding: 14px 0
+    flex-shrink: 0
+
+
+.footer_menu 
+    display: flex
+    align-items: center
+    gap: 0 20px 
+    font-size: 16px
+    color: grey  
+
+
+/*цветные кнопки*/
+#inc 
+    width: 200px
+    height: 58px
+    font-size: 24px 
+    border: none
+    background-color: red
+    margin: 26px
+    color: white
+
+
+#dec 
+    width: 200px
+    height: 58px
+    font-size: 24px 
+    border: none
+    background-color: greenyellow
+    margin: 26px
+    color: white
+
+
+#reset 
+    width: 200px
+    height: 58px
+    font-size: 24px 
+    border: none
+    background-color: grey
+    margin: 26px
+
+
